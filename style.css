@@ -1,0 +1,57 @@
+
+body{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin:0;
+    padding:0;
+    background-image:url('https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat:no-repeat ;
+    background-size:  cover;
+    color:white;
+}
+img{
+    height: 300px;
+}
+
+/* Container */
+.container{
+    /* border: 2px solid yellow; */
+    height:98vh;
+}
+
+#output{
+    /* border: 2px solid pink; */
+    margin-top:4.2em;
+    display:flex;
+    flex-flow: row;
+}
+#image-class{
+    /* border:2px solid red; */
+    margin-left:25em;
+}
+#content{
+    /* border:2px solid blue; */
+    width: 30em;
+    display: flex;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding:1em;
+    word-spacing: 3px;
+    
+}
+
+/* inner elements */
+.title,#formData{
+    text-align: center;
+
+}
+.title{
+    font-size: 4em;
+}
+#text-input{
+    padding: 1em;
+}
+#sub-but{
+    padding:1em;
+    width:15em;
+    margin-bottom:2em;
+}
